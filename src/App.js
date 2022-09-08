@@ -1,9 +1,12 @@
+import Header from "./Componentes/Header";
+import Main from "./Componentes/Main";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline py-2 text-center">
-      <p>Subir Tailwind a rama principal</p>
-    </h1>
+    <div className="flex flex-col space-y-8">
+      <Header/>
+      <Main/>
+    </div>
   );
 }
 
