@@ -1,6 +1,7 @@
 import Header from "./Componentes/Header";
 import Main   from "./Componentes/Main";
 import Footer from "./Componentes/Footer";
+import Carusell from "./Componentes/Carusell";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <Main/>
       <Footer/>
+      <Carusell/>
     </div>
   )  
 }
