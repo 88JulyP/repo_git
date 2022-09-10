@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="flex flex-col space-y-8">
       <Header/>
+      <Carusell/>
       <Main/>
       <Footer/>
-      <Carusell/>
     </div>
   )  
 }
